@@ -1,0 +1,9 @@
+---
+- hosts: jen 
+  tasks:
+    - name: Install git
+      yum:
+       name: git
+       state: present
+       update_cache: yes
+ ...
