@@ -1,0 +1,9 @@
+---
+- name: Install jdk 
+  hosts: stage
+  tasks:
+  - name:
+    yum:
+      name: java
+      state: latest
+ ...
